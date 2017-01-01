@@ -33,6 +33,9 @@
                             <constraint firstItem="4Yw-GD-R31" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iO3-g1-mKB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="4Yw-GD-R31" id="s1o-zX-bPp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
