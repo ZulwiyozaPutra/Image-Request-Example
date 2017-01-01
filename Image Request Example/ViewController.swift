@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //Setup the URL of image
-        let imageURL = URL(string: "http://www.mydogtrainingonline.com/images/how-to-train-your-dog.jpg")!
+        let imageURL = URL(string: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg")!
         
         let task = URLSession.shared.dataTask(with: imageURL) { (data, response, error) in
             
